@@ -1,4 +1,4 @@
-package JavaSE03;
+package JavaSE03.t02;
 
 import org.junit.Test;
 

@@ -1,0 +1,7 @@
+class - 1; 
+for - 1; 
+import - 2; 
+new - 3; 
+package - 1; 
+public - 5; 
+void - 3; 

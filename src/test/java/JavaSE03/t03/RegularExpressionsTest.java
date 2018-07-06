@@ -1,4 +1,4 @@
-package JavaSE03;
+package JavaSE03.t03;
 
 import JavaSE03.t03.RegularExpressions;
 import org.junit.Test;

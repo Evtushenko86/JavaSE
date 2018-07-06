@@ -1,4 +1,4 @@
-package JavaSE03;
+package JavaSE03.t01;
 
 import JavaSE03.t01.CrazyLogger;
 import org.junit.Test;
