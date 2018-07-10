@@ -13,7 +13,7 @@ public class PropertiesReader {
   Properties properties = new Properties();
 
   public void loadProperties() throws FileIsNotProperties, IOException {
-    out.println("Please, enter the path and name of the properties-file you would like to read:");
+    out.println("Please, enter the path and name of the properties file you would like to read:");
     Scanner scanner = new Scanner(System.in);
     fileName = scanner.next();
     getProperties(fileName);
@@ -53,7 +53,7 @@ public class PropertiesReader {
     try {
       propertiesReader.loadProperties();
       while (true) {
-        System.out.println("Please, enter the key if you want to know a value or Q for quit:");
+        System.out.println("Please enter the key if you want to know a value or Q for quit:");
         Scanner scanner = new Scanner(System.in);
         String key = scanner.next();
         if (!(key.equals("Q")))
