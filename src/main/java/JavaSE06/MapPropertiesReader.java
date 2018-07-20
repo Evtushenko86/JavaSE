@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class MapPropertiesReader {
   String delemiters = "=: ";
   String fileName; //C:\EpamHomeWork\src\main\resources\prop.properties
-  Map<String, String> properties = new HashMap<>();
+  public Map<String, String> properties = new HashMap<>();
   String tmp;
   String key;
   String value;
